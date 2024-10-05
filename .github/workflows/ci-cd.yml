@@ -36,7 +36,7 @@ jobs:
       - name: Deploy to Github page
         uses: peaceiris/actions-gh-pages@v4
         with:
-          github_token: ${{secrets.CicdToken}}
+          github_token: ${{secrets.CICDSECRET}}
           publish_dir: ./public
           publish_branch: master
 
